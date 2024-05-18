@@ -13,3 +13,8 @@ Boolean data type: `bool` \
 Binary types: `bytes`, `bytearray`, `memoryview` \
 None types: `Nonetype`
 ___
+
+You can set a data type for a piece of data by putting its one of the following list items in front of it. 
+```python
+x = str(4)
+```
