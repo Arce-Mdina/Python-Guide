@@ -91,6 +91,22 @@ ___
   | from | Used when importing a specific package or thing |
   | global | Declaring a global variable |
   | if | To make a conditional statement |
+  | import | To import a module |
+  | in | Checking if a value is present in list, tuple, etc. |
+  | is | To test if two variables are equal |
+  | lambda | To create an anonymous function |
+  | None | Representing a null value |
+  | nonlocal | Declaring a non-local variable |
+  | not | Logical operator |
+  | or | Logical operator |
+  | pass | Null statement |
+  | raise | To raise an exception |
+  | return | Exit a function and return a value |
+  | True | Boolean value |
+  | try | To make a try...except statement |
+  | while | To make a while loop |
+  | with | Simplify exception handling |
+  | yield | To return a list of values from a generator |
   
 </details>
 ___
