@@ -67,3 +67,70 @@ Python variables:
   var var = "string"
   ```
 </details>
+
+## Multiple Values, Multiple Variables
+Python allows you to assign multiple variables with different values in one line.
+
+```python
+fruit_1, fruit_2, fruit_3 = "apple", "banana", "orange"
+
+print(fruit_1)
+print(fruit_2)
+print(fruit_3)
+
+# Output: apple // banana // orange
+```
+
+## One Value, Mutiple Variables
+Python allows you to assign the same value to different variables.
+
+```python
+num = num_1 = num_2 = 1134
+
+print(num_1)
+
+# Output: 1134
+```
+
+## Unpacking
+Python allows you to extract the values from a list, tuples etc. by using different variables.
+
+```python
+my_list = [1, 4, 8]
+x, y, z = my_list
+
+print(y)
+# Output: 4
+```
+
+## Outputting Variables
+You can output variables by using the `print()` function. 
+
+```python
+x = "Hello world!"
+
+print(x)
+# Output: Hello world!
+```
+
+You can also add **variables that have the same type of data** together using the `+` operator.
+
+You can combine a number variable to a string variable by using the `,` operator.
+
+```python
+x = "Hello"
+y = "world!"
+
+print(x + y)
+# Output: Hello world!
+
+print(x, y)
+# Output: Hello world!
+
+# If you are adding two variables which its data type is integers or floats, Python is going to add them together when outputted
+```
+
+# Global Variables
+These are variables that could be used anywhere in the program. In most occasions, these are declared outside of a loop or a function.
+
+When you create a variable inside a function or a loop, the variable is local, meaning that it could be used by anything else outside of that loop or function. But the `global` keyword in Python allows the variable to globally declared, whether it is in a function or loop. This is good if you want to change a variable's value inside a function.
