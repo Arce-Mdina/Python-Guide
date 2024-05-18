@@ -8,10 +8,69 @@ Python does not really care about the type of data you assign it to, you can eve
 
 ```python
 name = "Sally"
-name = "John"
+name = 'John'
 print(name)
 
 # Output: John
 # This is because the second assignment overrided the first value.
+# ------------
+# Please also note that using single or double quotes for strings (text) is the same to Python
+# ------------
 ```
 
+## Casting
+Casting is a method where you want to specify a type of data to a piece of data or value. 
+
+For example:
+```python
+value = str(1134) # value = '1134'
+value = int(1134) # value = 1134
+value = float(1134) # value = 1134.0
+```
+
+## Testing the Type
+You can check the type of data a variable is storing by using the `type` function.
+```python
+x = 4.0
+print(type(x)) # Output: float
+```
+
+## Case Sensitivity
+Python is case sensitive, meaning that a variable named `a` and `A` is not the same.
+
+## Variable Naming
+Believe it or not, but Python does have restrictions to variable naming.
+
+Python variables:
+- must start with a letter or underscore
+- can only contain alpha-numeric characters and underscores
+- cannot start with a number
+- cannot be the same as any of the Python keywords (list below)
+
+<details>
+  <summary>Correct Python variables</summary>
+  
+  ```python
+  var4 = "string"
+  _var_var = "string"
+  var = "string"
+  ```
+</details>
+
+<details>
+  <summary>Python variables errors</summary>
+  
+  ```python
+  4var = "string"
+  global = "string"
+  var-var = "string"
+  var var = "string"
+  ```
+</details>
+
+___
+<details>
+  <summary>Python Keywords</summary>
+  
+</details>
+___
