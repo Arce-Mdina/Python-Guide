@@ -71,6 +71,26 @@ Python variables:
 ___
 <details>
   <summary>Python Keywords</summary>
+
+  | Keyword (Python) | Description/Function |
+  | ---------------- | -------------------- |
+  | and              | Logical operator     |
+  | as               | Creating an alias    |
+  | assert | Debugging |
+  | break | Breaking out of a loop |
+  | class | Defining a class |
+  | continue | Continue to the next iteration of the loop |
+  | def | Defining a function |
+  | del | Deleting an object |
+  | elif | A conditional statement; same as else if |
+  | else | A conditional statement |
+  | except | Tells Python what to do if an exception happens |
+  | False | Boolean value |
+  | finally | Tells Python to execute a block of code no matter the exception |
+  | for | To create a for loop |
+  | from | Used when importing a specific package or thing |
+  | global | Declaring a global variable |
+  | if | To make a conditional statement |
   
 </details>
 ___
