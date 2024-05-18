@@ -24,3 +24,13 @@ print(f"Your favourite color is {x}")
 
 
 ## Python Input
+In Python, you can allow the user to input something using the `input()` function.
+```python
+name = input("Enter your name: ")
+```
+
+You can also let users enter a number
+```python
+x = int(input("Enter a number: ")) # This tells Python that the data entered is an integer
+y = float(input("Enter a number with 1 decimal")) # This tells Python that the data entered is a float
+```
