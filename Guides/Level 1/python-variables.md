@@ -58,7 +58,7 @@ Python variables:
 </details>
 
 <details>
-  <summary>Python variables errors</summary>
+  <summary>Variable names that causes errors</summary>
   
   ```python
   4var = "string"
