@@ -73,3 +73,22 @@ mylist[4] = False
 
 print(mylist[4]) # Output: False
 ```
+
+### Change a range of values
+You can change a range by specifying that range and specifying the changes. If you insert more than the range, the new items will be inserted at the specified range, and the items after it will shift accordinly. This is the same if you insert less than the range.
+```python
+mylist = ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True]
+mylist[2:9] = [False]
+
+print(mylist) # Output: ['Hello' 'world', False, 78, True]
+```
+
+## Adding Items in a list
+You can use the insert function to insert it. Specify the index to insert it at that position.
+
+```python
+mylist = ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True]
+
+mylist.insert(2, "Ben")
+print(mylist) # Output: ['Hello' 'world', "Ben", 'John', 'Cherry', 1, 4, 6, 2, 78, True]
+```
