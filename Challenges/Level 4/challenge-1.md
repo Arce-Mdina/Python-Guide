@@ -1,6 +1,6 @@
 **Challenge:** Building a program where it shows an entered number of mulitiplication questions that goes up to 12.
 
-**Skills required:** Basic input & output (f-strings if you want); variables; if statements; for loops; Modules & Packages; Math
+**Skills required:** Basic input & output (f-strings if you want); variables; if statements; for loops; Modules & Packages
 
 **Possible Solution**:
 ```python
