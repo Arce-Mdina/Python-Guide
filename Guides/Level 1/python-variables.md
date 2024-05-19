@@ -57,6 +57,7 @@ You can check the type of data a variable is storing by using the `type` functio
 x = 4.0
 print(type(x)) # Output: float
 ```
+You can see our data types file [here](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-data-types.md)
 
 ## Case Sensitivity
 Python is case sensitive, meaning that a variable named `a` and `A` is not the same.
