@@ -27,7 +27,7 @@ value = str(1134) # value = '1134'
 value = int(1134) # value = 1134
 value = float(1134) # value = 1134.0
 ```
-Further examples:
+### Further examples
 
 For strings:
 ```python
