@@ -27,6 +27,29 @@ value = str(1134) # value = '1134'
 value = int(1134) # value = 1134
 value = float(1134) # value = 1134.0
 ```
+Further examples:
+
+For strings:
+```python
+x = str(3) # x = '3'
+y = str(3.6) # y = '3.6'
+z = str("Hello world!") # z = "Hello world!"
+```
+
+For integers:
+```python
+x = int(3) # x = 3
+y = int(3.6) # y = 3
+z = int("2") # z = 2
+```
+
+For floats:
+```python
+x = float(3) # x = 3.0
+y = float(3.6) # y = 3.6
+z = float("3.573946592") # z = 3.573946592
+```
+
 
 ## Testing the Type
 You can check the type of data a variable is storing by using the `type` function.
