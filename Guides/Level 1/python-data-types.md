@@ -14,7 +14,4 @@ Binary types: `bytes`, `bytearray`, `memoryview` \
 None types: `Nonetype`
 ___
 
-You can set a data type for a piece of data by putting its one of the following list items in front of it. 
-```python
-x = str(4)
-```
+To learn how to do casting in Python [here](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#casting)
