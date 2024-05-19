@@ -1,4 +1,4 @@
-## Python Lists
+# Python Lists
 Lists are used for storing multiple values in one variable. They can contain more than one data type! See all the data types in Python [here](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-data-types.md)
 
 They are created with square brackets `[]`.
@@ -62,4 +62,14 @@ if 4 in mylist:
   print(True)
 ```
 
-##
+## Changing Items in a list
+You can change a value of in a list by referring to its index number.
+```python
+mylist = ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True]
+
+print(mylist[4]) # Output: 1
+
+mylist[4] = False
+
+print(mylist[4]) # Output: False
+```
