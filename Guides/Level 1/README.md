@@ -20,5 +20,4 @@ In this level you will learn:
   - [Python Input](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-input-output.md#python-input)
 - Lists
 - Tuples
-- Sets
 - Dictionaries
