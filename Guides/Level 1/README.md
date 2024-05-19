@@ -11,9 +11,11 @@ In this level you will learn:
   - [Case Sensitivity](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#case-sensitivity)
   - [Variable Naming](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#variable-naming)
   - [Multiple Values, Multiple Variables](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#multiple-values-multiple-variables)
-  - [One Value, Mutiple Variables](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#multiple-values-multiple-variables)
+  - [One Value, Mutiple Variables](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#one-value-mutiple-variables)
   - [Unpacking](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#unpacking)
   - [Outputting Variables](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#outputting-variables)
   - [Global Variables](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-variables.md#global-variables)
 - Basic input/output
+  - [Python Ouput](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-input-output.md#python-output)
+  - [Python Input](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-input-output.md#python-input)
 - Simple data structures (lists, tuples, dictionaries)
