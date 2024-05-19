@@ -154,7 +154,7 @@ print(x, y)
 # If you are adding two variables which its data type is integers or floats, Python is going to add them together when outputted
 ```
 
-# Global Variables
+## Global Variables
 These are variables that could be used anywhere in the program. In most occasions, these are declared outside of a loop or a function.
 
 When you create a variable inside a function or a loop, the variable is local, meaning that it could be used by anything else outside of that loop or function. But the `global` keyword in Python allows the variable to globally declared, whether it is in a function or loop. This is good if you want to change a variable's value inside a function.
