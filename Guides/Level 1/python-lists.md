@@ -92,3 +92,14 @@ mylist = ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True]
 mylist.insert(2, "Ben")
 print(mylist) # Output: ['Hello' 'world', "Ben", 'John', 'Cherry', 1, 4, 6, 2, 78, True]
 ```
+
+### Append()
+You can use the `append` function to add a new list item to the end of the list
+
+```python
+mylist = ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True]
+
+mylist.append("apples")
+
+print(mylist) # Output: mylist = ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True, "apples"]
+```
