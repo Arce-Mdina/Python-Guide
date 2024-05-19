@@ -18,4 +18,7 @@ In this level you will learn:
 - Basic input/output
   - [Python Ouput](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-input-output.md#python-output)
   - [Python Input](https://github.com/Arce-Mdina/Python-Guide/blob/main/Guides/Level%201/python-input-output.md#python-input)
-- Simple data structures (lists, tuples, dictionaries)
+- Lists
+- Tuples
+- Sets
+- Dictionaries
