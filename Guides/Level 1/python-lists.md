@@ -84,6 +84,8 @@ print(mylist) # Output: ['Hello' 'world', False, 78, True]
 ```
 
 ## Adding Items in a list
+
+### insert()
 You can use the insert function to insert it. Specify the index to insert it at that position.
 
 ```python
@@ -93,7 +95,7 @@ mylist.insert(2, "Ben")
 print(mylist) # Output: ['Hello' 'world', "Ben", 'John', 'Cherry', 1, 4, 6, 2, 78, True]
 ```
 
-### Append()
+### append()
 You can use the `append` function to add a new list item to the end of the list
 
 ```python
@@ -103,3 +105,15 @@ mylist.append("apples")
 
 print(mylist) # Output: mylist = ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True, "apples"]
 ```
+
+### extend()
+You can use the extend() function to extend a list. This function to connect two lists together. 
+
+```python
+mylist = ['Hello' 'world', 'John', 'Cherry']
+mylist_2 = [1, 4, 6, 2, 78, True]
+
+mylist.extend(mylist_2)
+print(mylist) # Output: ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True]
+```
+This function could also be used for tuples, dictionaries etc.
