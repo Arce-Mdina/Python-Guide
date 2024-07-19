@@ -117,3 +117,7 @@ mylist.extend(mylist_2)
 print(mylist) # Output: ['Hello' 'world', 'John', 'Cherry', 1, 4, 6, 2, 78, True]
 ```
 This function could also be used for tuples, dictionaries etc.
+
+## Removing Items in a list
+
+### remove()
