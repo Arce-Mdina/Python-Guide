@@ -180,3 +180,46 @@ print(mylist)
 
 ## Loops + Lists
 You can output all of the list's items by using a loop. Please see our loop guide [here]()
+
+You can do this by using a for loop:
+```python
+mylist = ["apple", 1, 2, True]
+for x in mylist:
+  print(x)
+
+# Output:
+#  apple
+#  1
+#  2
+#  True
+```
+
+You can also do this by using the `range()` and `len()` functions to generate all the items in a list.
+```python
+mylist = ['Hello', True, False, 45, 7]
+for i in range(len(mylist)):
+  print(mylist[i])
+
+# Output:
+#  Hello
+#  True
+#  False
+#  45
+#  7
+```
+
+A while loop is also applicable.
+```python
+mylist = ['Hello', 45, True, False]
+i = 0
+while i < len(mylist):
+  print(mylist[i])
+  i = i + 1
+
+# Output:
+#  Hello
+#  45
+#  True
+#  False
+```
+
