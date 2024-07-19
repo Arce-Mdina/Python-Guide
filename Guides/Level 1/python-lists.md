@@ -222,4 +222,39 @@ while i < len(mylist):
 #  True
 #  False
 ```
+## List Comprehension
+List comprehension has a shorter syntax when you want to create a list based on values and data from another list.
+
+For example:
+```python
+cars = ["ford", "audi", "ferrari", "porsche", "buick", "toyota"]
+newCarsList = []
+
+for x in fruits:
+  if "a" in x:
+    newCarsList.append(x)
+
+print(newlist)
+
+# Output: All items that contain the letter 'a'
+```
+
+It can used in one line as well! This makes it much easier.
+```python
+cars = ["ford", "audi", "ferrari", "porsche", "buick", "toyota"]
+newCarsList = [x for x in fruits if "a" in x]
+
+print(newCarsList)
+
+# Output: All items that contain the letter 'a'
+```
+The syntax structure could be seen below:
+
+**
+newlist = [*expression* for *item* in *iterable* if *condition* == True]
+**
+
+**Please do note that the old list is unchanged, a new list is just created and filled in based on the values of the old list.**
+
+You can use list comprehensions to create new lists or filter old lists by modifying the structure of the syntax. See this [link](https://www.w3schools.com/python/python_lists_comprehension.asp) for more information.
 
