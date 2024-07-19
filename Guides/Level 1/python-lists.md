@@ -121,3 +121,62 @@ This function could also be used for tuples, dictionaries etc.
 ## Removing Items in a list
 
 ### remove()
+This function can remove a specified item from a list. 
+
+```python
+mylist = ['Hello', 1, 2, True]
+
+mylist.remove('Hello')
+print(mylist)
+
+# Output: [1, 2, True]
+```
+
+If an item appears more than once, this function will only remove the **first occurrence**.
+```python
+mylist = ['Hello', 1, 2, True, 'Hello']
+
+mylist.remove('Hello')
+print(mylist)
+
+# Output: [1, 2, True, 'Hello']
+```
+
+### pop()
+The `pop()` function can remove an item in a list if you specify its index.
+
+```python
+mylist = ['Hello', 1, 2, False]
+
+mylist.pop(3)
+print(mylist)
+
+# Output: ['Hello', 1, 2]
+```
+
+### del
+The del keyword can also remove a specified index. 
+
+```python
+mylist = ['Hello', 1, 2, False]
+
+del mylist[2]
+print(mylist)
+
+# Output: ['Hello', 1, False]
+```
+
+### clear()
+This function can completely wipe all the list's contents. The list would still be there, but without any content.
+
+```python
+mylist = ['Hello', 1, 2, False]
+
+mylist.clear()
+print(mylist)
+
+# Output: []
+```
+
+## Loops + Lists
+You can output all of the list's items by using a loop. Please see our loop guide [here]()
