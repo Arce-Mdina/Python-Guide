@@ -258,3 +258,15 @@ newlist = [*expression* for *item* in *iterable* if *condition* == True]
 
 You can use list comprehensions to create new lists or filter old lists by modifying the structure of the syntax. See this [link](https://www.w3schools.com/python/python_lists_comprehension.asp) for more information.
 
+## Sort Lists
+
+### sort()
+This function can sort values in a list by ascending order by default. 
+
+```python
+mylist = ["ford", "audi", "ferrari", "porsche", "buick", "toyota"]
+mylist.sort()
+print(mylist)
+
+# Output: ['audi', 'buick', 'ferrari', 'ford', 'porsche', 'toyota']
+```
