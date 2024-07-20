@@ -263,6 +263,7 @@ You can use list comprehensions to create new lists or filter old lists by modif
 ### sort()
 This function can sort values in a list by ascending order by default. 
 
+Alphabetically:
 ```python
 mylist = ["ford", "audi", "ferrari", "porsche", "buick", "toyota"]
 mylist.sort()
@@ -270,3 +271,47 @@ print(mylist)
 
 # Output: ['audi', 'buick', 'ferrari', 'ford', 'porsche', 'toyota']
 ```
+
+Numerically:
+```python
+mylist = [34, 67, 89, 12, 9, 5, 7039, 5720]
+mylist.sort()
+print(mylist)
+
+# Output: [5, 9, 12, 34, 67, 89, 5720, 7039]
+```
+
+### Sort in Descending Order
+You can use the `sort(reverse = True)` function to reverse the actions. One example:
+
+```python
+mylist = ["ford", "audi", "ferrari", "porsche", "buick", "toyota"]
+mylist.sort(reverse = True)
+print(mylist)
+
+# Output: ['toyota', 'porsche', 'ford', 'ferrari', 'buick', 'audi']
+```
+
+Note! The sort() function is case sensitive, which means capital letters being sorted before lowercase letters. To remove this, you can do this:
+
+```python
+mylist = ["Ford", "audi", "ferrari", "porsche", "buick", "toyota"]
+mylist.sort(key = str.lower)
+print(mylist)
+
+# Output: ['Ford, 'audi', 'buick', 'ferrari', 'porsche', 'toyota']
+```
+
+### reverse()
+This function allows you to completely reverse the current order of a list.
+
+```python
+mylist = ["Ford", "audi", "ferrari", "porsche", "buick", "toyota"]
+mylist.reverse()
+print(mylist)
+
+# Output: ['toyota', 'buick', 'porsche', 'ferrari', 'audi', 'Ford']
+```
+
+### Customize Sort Function
+You can use this structure to customise your sort functions. sort(key = *function*). See our functions guide [here]().
